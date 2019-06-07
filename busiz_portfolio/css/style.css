@@ -1,0 +1,482 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("../Image/bg1.png") no-repeat fixed center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.logo {
+    font-family: 'Tangerine' !important;
+    font-size: 50px;
+    margin-left: 28px;
+    float: left;
+    text-shadow: #aaa 0px 3px 2px;
+    color: #e2bca8;
+}
+
+p {
+    font-family: serif;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+a.prev {
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a.next {
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.numbertext {
+    font-size: 25px;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.w3-bar.w3-card {
+    float: right;
+}
+
+a.w3-bar-item.w3-button.w3-padding-large {
+    color: #e2bca8;
+    padding: 20.3px;
+    font-family: "Roboto" !important;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+a.w3-bar-item.w3-button.w3-padding-large:hover {
+    color: #000;
+    background-color: #e2bca8;
+}
+
+p.w3-opacity {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #e2bfac;
+}
+
+p.w3-opacity1 {
+    font-family: serif;
+    font-size: 16px;
+    color: #7d7373;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px -1px 0px #4c4949;
+}
+
+p.w3-opacity2 {
+    font-family: "Roboto";
+    font-size: 35px;
+    color: #e2bca8;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 1px 2px 0px #000;
+}
+
+p.w3-opacity.w3-center {
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+}
+
+.w3-row.w3-padding-32 {
+    color: #fff;
+    padding: 20px;
+}
+
+input.w3-input.w3-border {
+    border: none;
+    padding: 10px;
+    width: 42%;
+    margin: 0px 5px 0px 9px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px #fff;
+}
+
+.mySlides img {
+    border: 96px #000;
+    border-radius: 50%;
+    width: 100% !important;
+    box-shadow: -15px 1px 5px #000;
+}
+
+img.w3-hover-opacity {
+    margin-bottom: 20px;
+}
+
+.contact {
+    background: url("../Image/footer1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.slide {
+    background: url("../Image/footer.png") no-repeat fixed center;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    margin-top: 0px;
+    text-align: center !important;
+    background-color: #222222;
+    padding: 10px 0px 0px 0px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+    margin: auto;
+    text-align: right;
+    color: #fff !important;
+    position: fixed;
+}
+
+.w3-container {
+    width: 94% !important;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0px 0px;
+}
+
+.container {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.w3-black {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.section1 {
+  margin-top: 0%;
+  padding: 30px;
+}
+
+div#navDemo {
+    display: none;
+}
+
+button.w3-button {
+    width: 100%;
+    font-family: "Roboto";
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 0px 0px 2px -1px #fff;
+}
+
+button.w3-button:hover {
+    width: 90%;
+    font-family: "Roboto";
+    background-color: #e2bca8;
+    color: #000;
+}
+
+button.w3-black.w3-section.w3-right {
+    width: 90.4%;
+    height: 45px;
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    color: #e2bca8;
+}
+
+button.w3-black.w3-section.w3-right:hover {
+    width: 50%;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #e2bca8;
+}
+
+.middle-header {
+    letter-spacing: 5px;
+    display: block;
+    width: 100%;
+    color: #7e3a19;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0px;
+    text-shadow: -5px -5px 5px #000;
+}
+
+span {
+    color: #ffffff;
+    cursor: pointer;
+}
+.mySlides {
+    text-align: center;
+}
+
+.mySlides img {
+    border: 96px #000;
+    border-radius: 50%;
+    box-shadow: -15px 1px 5px #000;
+}
+
+p.w3-justify {
+    color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: "Roboto";
+  font-size: 45px;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 0;
+    font-style: normal;
+    text-shadow: 0px 0px 4px #e2bca8;
+}
+
+#ticketModal {
+  display: none;
+}
+
+#ticketModal2 {
+  display: none;
+}
+
+#ticketModal3 {
+  display: none;
+}
+
+.w3-third.w3-margin-bottom {
+    padding: 30px 30px 0px 30px;
+    max-width: 25%;
+    display: inline-block;
+}
+
+form {
+    padding: 30px 185px 0;
+    margin: auto;
+    width: 70%;
+}
+
+.w3-bar .w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 18px;
+    text-rendering: auto;
+    padding: 5px;
+    color: #999999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-hover {
+  color: #e2bca8;
+}
+
+.fa-suitcase {
+font-size: 50px;
+}
+
+.copyright {
+    color: #999999;
+    font-size: 15px;
+    padding: 5px 0 15px 0 !important;
+    letter-spacing: 1.6px;
+    font-family: "Tangerine";
+}
+
+.copyright span:hover {
+ color: #e2bca8;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.w3-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.w3-modal-content.w3-animate-top.w3-card-4 {
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #e2bca8;
+    width: 80%;
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    margin: auto;
+    font-family: Roboto;
+    padding: 50px;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.modal-button {
+  background-color: #aaa;
+
+}
+
+.fa .fa-remove {
+  color: #000 !important
+  ;
+}
+
+.resume {
+    margin-top: 20px;
+    font-style: normal;
+    font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.col-sm-10 {
+    width: 85%;
+    padding: 85px;
+    color: #fff;
+}
+
+.col-sm-2.resumee {
+    width: 45%;
+    text-align: left;
+}
+
+.col-sm-2.resumee img {
+    max-width: 46%;
+}
+
+.resume a {
+  color: #e2bca8;
+}
+
+.w3-row-padding.w3-padding-32 {
+    width: 100%;
+}
+
+.w3-col.m6.w3-large.w3-margin-bottom .paras {
+    margin: 0;
+    font-style: normal;
+    font-family: serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    line-height: 5px;
+}
+
+.col-sm-12 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.col-sm-5 {
+    width: 25%;
+    text-align: center !important;
+}
+
+.col-sm-7 {
+    width: 75%;
+    padding: 32px;
+}
+
+p.paras a {
+    text-decoration: none;
+    color: #e2bfad;
+    font-size: 15px;
+}
+
+textarea {
+  text-align: center;
+  margin: 15px 0px 0px 0px;
+  font-size: 18px;
+  width: 90%;
+  font-family: Roboto;
+  font-weight: normal;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 3px #fff;
+  }
+
+  footer a {
+      text-decoration: none !important;
+  }
